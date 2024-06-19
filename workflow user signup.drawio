@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2024-06-18T00:48:04.185Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mK99zWYqpSL07VD0SdcM" version="24.4.13" type="device">
+  <diagram name="Page-1" id="hQk4RfduXNzmqCUP8k7A">
+    <mxGraphModel dx="2074" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p782LLmFoIH0jyLvSGzz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-4" target="p782LLmFoIH0jyLvSGzz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-4" value="User signup to system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-5" value="Call login API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-7" value="Check the information" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="147.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-8" value="Call HardCoded RN function." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-9" value="Checking the credentials by RN" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-7" target="p782LLmFoIH0jyLvSGzz-8">
+          <mxGeometry x="-0.1429" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="513.75" y="380" as="sourcePoint" />
+            <mxPoint x="563.75" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-10" value="Checking&lt;div&gt;the information by&amp;nbsp;&lt;/div&gt;&lt;div&gt;Lambda Function&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-7" target="p782LLmFoIH0jyLvSGzz-5">
+          <mxGeometry x="-0.0035" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="173.75" y="440" as="sourcePoint" />
+            <mxPoint x="60" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-12" value="1- user name already exist&lt;div&gt;2- username has wrong characters (!,# , ..)&lt;/div&gt;&lt;div&gt;3- password has spaces.&lt;/div&gt;&lt;div&gt;4- wrong number format&lt;/div&gt;&lt;div&gt;5- the email doesn&#39;tt exist&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p782LLmFoIH0jyLvSGzz-11">
+          <mxGeometry x="0.2145" y="-1" relative="1" as="geometry">
+            <mxPoint x="-11" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-13" target="p782LLmFoIH0jyLvSGzz-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="440" />
+              <mxPoint x="610" y="30" />
+              <mxPoint x="50" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-31" value="if user name and password uncorrect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p782LLmFoIH0jyLvSGzz-30">
+          <mxGeometry x="0.2235" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-13" value="Call SendVerCode API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-15" value="Error Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-5" target="p782LLmFoIH0jyLvSGzz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="80" />
+              <mxPoint x="80" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-17" value="1- user name already exist&lt;div&gt;2- username has wrong characters (!,# , ..)&lt;/div&gt;&lt;div&gt;3- password has spaces.&lt;/div&gt;&lt;div&gt;4- wrong number format&lt;/div&gt;&lt;div&gt;5- the email doesn&#39;tt exist&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420.00468339077287" y="79.99803949771194" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-5" target="p782LLmFoIH0jyLvSGzz-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-23" value="Login Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-32" target="p782LLmFoIH0jyLvSGzz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-32" value="Call DynamoDB&lt;div&gt;using boto3 library&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-34" value="if valid code" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-13" target="p782LLmFoIH0jyLvSGzz-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="p782LLmFoIH0jyLvSGzz-13" target="p782LLmFoIH0jyLvSGzz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="440" as="sourcePoint" />
+            <mxPoint x="-10" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="440" />
+              <mxPoint x="440" y="500" />
+              <mxPoint x="-70" y="500" />
+              <mxPoint x="-70" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p782LLmFoIH0jyLvSGzz-36" value="if anvalid code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p782LLmFoIH0jyLvSGzz-35">
+          <mxGeometry x="-0.5269" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
